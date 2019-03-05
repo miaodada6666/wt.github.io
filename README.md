@@ -1,37 +1,110 @@
-## Welcome to GitHub Pages
+## Welcome to Wutang team
 
-You can use the [editor on GitHub](https://github.com/miaodada6666/wt.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 张嘉琦
 
-### Markdown
+<?xml version="1.0" encoding="UTF-8"?>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- A personal biography -->
+<biography>
+    <!-- Basic information -->
+    <basic>
+        <id status="student">
+            71116140
+        </id>
 
-```markdown
-Syntax highlighted code block
+        <name>
+            Jiaqi Zhang
+        </name>
 
-# Header 1
-## Header 2
-### Header 3
+        <gender>
+            Male
+        </gender>
 
-- Bulleted
-- List
+        <age>
+            22
+        </age>
+    </basic>
 
-1. Numbered
-2. List
+    <!-- Contact information-->
+    <contact>
+        <addr>
+            Unknown
+        </addr>
 
-**Bold** and _Italic_ and `Code` text
+        <tel>
+            xxx xxxx xxxx
+        </tel>
 
-[Link](url) and ![Image](src)
-```
+        <email>
+            xxxxxxxxx@seu.edu.cn
+        </email>
+    </contact>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    <!--Extend information-->
+    <extend>
+        <education start="2016" end="2020">
+            Southeast University
+        </education>
+    </extend>
+</biography>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/miaodada6666/wt.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 孙国钦
+ <?xml version="1.0" encoding="UTF-8"?>
 
-### Support or Contact
+   <人员>
+      <孙国钦 性别="男" 年龄="20">
+        <姓名>孙国钦</姓名>
+        <学号>71116139</学号>
+        <专业>软件工程</专业>
+        <联系方式 qq="330620016" phoneNum="15850682669"/>
+       </孙国钦>
+    </人员>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 苗继欣
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- A personal biography -->
+<biography>
+    <!-- Basic information -->
+    <basic>
+        <id status="student">
+            71116319
+        </id>
+
+        <name>
+            苗继欣
+        </name>
+
+        <gender>
+            Male
+        </gender>
+
+        <age>
+            21
+        </age>
+    </basic>
+
+    <!-- Contact information-->
+    <contact>
+        <addr>
+            东南大学九龙湖校区
+        </addr>
+
+        <tel>
+            17634803856
+        </tel>
+
+        <email>
+            213161872@seu.edu.cn
+        </email>
+    </contact>
+
+    <!--Extend information-->
+    <extend>
+        <education start="2016" end="2020">
+            Southeast University
+        </education>
+    </extend>
+</biography>

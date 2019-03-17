@@ -302,7 +302,7 @@
 					</div>
 					<div class="post-meta-box bg-box" >
 
-						<h4 class="title"><a href="moban3133/images/blog/movie.xml" download="movie.xml">2016——2018年精选电影</a></h4>
+						<h4 class="title"><a href="moban3133/images/blog/movie.xml" download="movie.xml">2016——2018年精选电影XML文档下载</a></h4>
 						<ul class="share-meta clearfix">
 							<li><a href="#"><i class="icon flaticon-comment"></i>Comments (03)</a></li>
 							<li><a href="#"><i class="icon flaticon-like-heart"></i>Likes (05)</a></li>
@@ -311,7 +311,51 @@
 					</div> <!-- /.post-meta-box -->
 				</div> <!-- /.single-blog-post -->
 
+        
+				<div class="single-blog-post">		
+					<div class="post-meta-box bg-box">
+						<h4 class="title"><a href="#">DTD</a></h4>
+						<p><xmp>
+<!-- A DTD for the movie list edited by 张嘉琦 (71116140) -->
+<!DOCTYPE 电影列表[
 
+<!ELEMENT 电影列表 (电影*)>
+<!ELEMENT 电影 (商品属性,艺术属性)>
+<!ELEMENT 商品属性 (片长,主演,导演,编剧,制片地区)>
+<!ELEMENT 片长 (#PCDATA)>
+<!ELEMENT 主演 (#PCDATA)>
+<!ELEMENT 导演 (#PCDATA)>
+<!ELEMENT 编剧 (#PCDATA)>
+<!ELEMENT 制片地区 (#PCDATA)>
+<!ELEMENT 艺术属性 (评分,影评,类型+,获奖情况,剧情简介)>
+<!ELEMENT 评分 (#PCDATA)>
+<!ELEMENT 影评 (#PCDATA|#EMPTY)>
+<!ELEMENT 类型 (#PCDATA)>
+<!ELEMENT 获奖情况 (#PCDATA|#EMPTY)>
+<!ELEMENT 剧情简介 (#PCDATA|#EMPTY)>
+
+<!ATTLIST 电影 名称 CDATA #REQUIRED>
+<!ATTLIST 电影 编号 CDATA #REQUIRED>
+<!ATTLIST 影评 链接 CDATA #REQUIRED>
+]></xmp></p>
+					</div> <!-- /.post-meta-box -->
+				</div>
+
+          
+
+		<div class="single-blog-post" >
+					<div class="image-box">
+						<a href="moban3133/images/blog/structure.jpg" download="struct.jpg">
+						<img src="moban3133/images/blog/structure.jpg" alt="movie_schema">
+					    </a>
+					</div>
+					<div class="post-meta-box bg-box" >
+
+						<h4 class="title"><a href="moban3133/images/blog/movie_schema.txt" download="movie_schema.txt">2016——2018年精选电影schema文档</a></h4>
+
+                     
+					</div> <!-- /.post-meta-box -->
+				</div> <!-- /.single-blog-post -->
 
 
 
@@ -321,8 +365,8 @@
 			<!-- ======================== Theme Sidebar =============================== -->
 			<div class="col-lg-4 col-md-7 col-12 theme-main-sidebar">
 				<div class="sidebar-box bg-box about-me">
-					<h6 class="sidebar-title">About us</h6>
-					<img src="moban3133/images/home/1.jpg" alt="">
+					<h6 class="sidebar-title">标签结构图</h6>
+					<img src="moban3133/images/home/1.png" alt="">
 					<p>最帅的无糖组</p>
 					<div class="clearfix"><img src="moban3133/images/home/sign.png" alt="" class="signature float-right"></div>
 				</div> <!-- /.about-me -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The XML schema for movie list created by 张嘉琦 (71116140) -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Schema for element 电影列表 -->
+    <xs:element name="电影列表">
+        <xs:complexType>
+            <!-- Schema for element 电影列表/电影 -->
+            <xs:element name="电影" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="名称" type="xs:string"/>
+                    <xs:attribute name="编号" type="xs:positiveInteger"/>
+                    <xs:sequence>
+                        <!-- Schema for element 电影列表/电影/商品属性 -->
+                        <xs:element name="商品属性">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <!-- Schema for element 电影列表/电影/商品属性/片长 -->
+                                    <xs:element name="片长" type="xs:string">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="([0-9])+min"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <!-- Schema for element 电影列表/电影/商品属性/主演 -->
+                                    <xs:element name="主演" type="xs:string"/>
+                                    <!-- Schema for element 电影列表/电影/商品属性/导演 -->
+                                    <xs:element name="导演" type="xs:string"/>
+                                    <!-- Schema for element 电影列表/电影/商品属性/编剧 -->
+                                    <xs:element name="编剧" type="xs:string"/>
+                                    <!-- Schema for element 电影列表/电影/商品属性/制片地区 -->
+                                    <xs:element name="制片地区" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <!-- Schema for element 电影列表/电影/艺术属性 -->
+                        <xs:element name="艺术属性">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <!-- Schema for element 电影列表/电影/艺术属性/评分 -->
+                                    <xs:element name="评分" type="xs:float">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:float">
+                                                <xs:fractionDigits value="1"/>
+                                                <xs:totalDigits value="2"/>
+                                                <xs:minInclusive value="0.0"/>
+                                                <xs:maxInclusive value="10.0"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <!-- Schema for element 电影列表/电影/艺术属性/影评 -->
+                                    <xs:element name="影评">
+                                        <xs:complexType>
+                                            <xs:simpleContent>
+                                                <xs:extension base="xs:string">
+                                                    <xs:attribute name="链接" type="xs:anyURI"/>
+                                                </xs:extension>
+                                            </xs:simpleContent>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <!-- Schema for element 电影列表/电影/艺术属性/类型 -->
+                                    <xs:element name="类型" maxOccurs="2">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="剧情"/>
+                                                <xs:enumeration value="爱情"/>
+                                                <xs:enumeration value="喜剧"/>
+                                                <xs:enumeration value="动作"/>
+                                                <xs:enumeration value="科幻"/>
+                                                <xs:enumeration value="恐怖"/>
+                                                <xs:enumeration value="动画"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <!-- Schema for element 电影列表/电影/艺术属性/获奖情况 -->
+                                    <xs:element name="获奖情况" type="xs:string"/>
+                                    <!-- Schema for element 电影列表/电影/艺术属性/剧情简介 -->
+                                    <xs:element name="剧情简介" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:complexType>
+    </xs:element>
+</xs.schema>

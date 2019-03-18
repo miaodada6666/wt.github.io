@@ -1,0 +1,41 @@
+movielist
+{
+background-color: #ffffff;
+width: 100%;
+}
+movie::before
+{
+margin-top: 20px;
+margin-left: 20px;
+font-size:20px;
+color:#8E8E38;
+content:attr(name);
+display: block;
+margin-bottom: 50;
+margin-left: 20;
+}
+Productattribute
+{
+display:block;
+background-color:#ffffff£»
+width: 100%£»
+}
+time,actor,director,screenwriter,area,score,comment,type,prize
+{
+display:block;
+color:#EE7AE9;
+margin-left: 20pt;
+}
+artattribute
+{
+display:block;
+background-color:#ffffff£»
+width: 100%£»
+}
+brief
+{
+display:block;
+color:#76EE00;
+margin-left: 20pt;
+}
+

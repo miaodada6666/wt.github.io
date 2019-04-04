@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mjx.xsl"?>
+<!-- A personal biography -->
+<biographylist>
+
+
+    <Team>
+        <Teamsummary>
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxml
+        </Teamsummary>
+    </Team>
+<biography>
+    <!-- Basic information -->
+    <basic>
+        <id status="student">
+            71116140
+        </id>
+
+        <name>
+            Jiaqi Zhang
+        </name>
+
+        <gender>
+            Male
+        </gender>
+
+        <age>
+            22
+        </age>
+    </basic>
+
+    <!-- Contact information-->
+    <contact>
+        <addr>
+            Unknown
+        </addr>
+
+        <tel>
+            xxx xxxx xxxx
+        </tel>
+
+        <email>
+            xxxxxxxxx@seu.edu.cn
+        </email>
+    </contact>
+
+    <!--Extend information-->
+    <extend>
+        <education start="2016" end="2020">
+            Southeast University
+        </education>
+    </extend>
+</biography>
+<biography>
+<basic>
+<id status="student"> 71116139 </id>
+<name> 孙国钦 </name>
+<gender> Male </gender>
+<age> 22 </age>
+</basic>
+<!-- Contact information-->
+<contact>
+<addr> 江苏省南京市东南大学九龙湖校区计算机楼242 </addr>
+<tel> 15850682669 </tel>
+<email> 330620016@qq.com </email>
+</contact>
+<!--Extend information-->
+<extend>
+<education end="2020" start="2016"> Southeast University </education>
+</extend>
+</biography>
+<biography>
+    <basic>
+        <id status="student">
+            71116319
+        </id>
+
+        <name>
+            苗继欣
+        </name>
+
+        <gender>
+            Male
+        </gender>
+
+        <age>
+            21
+        </age>
+    </basic>
+
+    <!-- Contact information-->
+    <contact>
+        <addr>
+            东南大学九龙湖校区
+        </addr>
+
+        <tel>
+            17634803856
+        </tel>
+
+        <email>
+            213161872@seu.edu.cn
+        </email>
+    </contact>
+
+    <!--Extend information-->
+    <extend>
+        <education start="2016" end="2020">
+            Southeast University
+        </education>
+    </extend>
+</biography>
+</biographylist>
+
+
